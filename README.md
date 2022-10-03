@@ -15,4 +15,6 @@ _avec retour à la ligne_\
 | Syntax    | Description | Test  |
 | :-------- | :---------: | ----: |
 | Header    | Title       | Texte |
-| Paragraphe exemple aligné à gauche | Texte exemple centré  |Texte exemple à aligner à droite |
+| Paragraphe exemple aligné à gauche | Texte exemple centré  |Texte exemple aligné à droite |
+
+je suis une nouvelle phrase !
