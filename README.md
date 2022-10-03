@@ -12,8 +12,7 @@ _Je suis un super paragraphe en italique_\
 _avec retour à la ligne_\
 **Je suis un paragraphe en gras**
 
-
-| Syntax    | Description |
-| --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
+| Syntax    | Description | Test  |
+| :-------- | :---------: | ----: |
+| Header    | Title       | Texte |
+| Paragraphe exemple aligné à gauche | Texte exemple centré  |Texte exemple à aligner à droite |
