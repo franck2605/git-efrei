@@ -43,3 +43,19 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | git branch | -M, -d, -a | Créer ou renommer une branche de travail |
 | git checkout | -b | (Créer si l'option -b a été donnéeet) Se positionner sur une branche de travail |
 | git merge | | Permet de fusionner l'historique Git de 2 branches |
+| git remote add <alias> <branche> | -u
+| git remote | -v | Lister lles différentes origines distantes |
+| git push <alias> <branche> | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le depôt distant mentionné.
+
+## Création d'un compte Github
+
+Aller sur [github] (https://github.com) et cliquer sur "Sign up" pour lancer le processus de création de compte.
+
+## Génération d'une clé SSH
+'''bash
+ssh-keygen
+'''
+
+Localiser la clé publique (par défaut: C:\Users\username\.ssh\) et copier le contenu du fichier id_rsa.pub.
+
+Aller sur github dans les paramètres du compte (icône du compte en haut à droite de l'écran d'accueil >>setting >> SSH and GPG keys >> New SSH key) et ajouter la clé nouvellement créée et copiée.
