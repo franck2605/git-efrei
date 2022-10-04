@@ -76,6 +76,12 @@ Dans une autre branche :
 3. Appliquer des mmodifications dans un ou plusieurs fichiers dans cette nouvelle branche.
 4. Sauvegarder les modifications et les envoyer dans le dépôt distant (sur la bonne branche, pas sur main !).
 
-Dans la branche main:
+Dans la branche main :
 
-1. Vous allez récupérer et fusionner les informations 
+1. Vous allez récupérer et fusionner les informations de la branche main depuis le dépôt distant.
+2. Vous allez apporter des modifications sur le fichier README.md (ce que vous voulez).
+3. Vous allez stocker ces changements via la commande git stash.
+
+Dans l'autre branche :
+
+1. Vous pouvez appliquer les changements contenus dans le stash via la commande stash apply.
