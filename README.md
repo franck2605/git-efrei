@@ -21,8 +21,6 @@ _avec retour à la ligne_\
 
 Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du dossier parent, un fichier secret.txt contenant les client_secret et client_key.
 
-## Résumé matinée
-
 | Commande | Options | Fonction |
 | :------ | :-----: | :------: |
 | git init | | Initialiser un projet Git |
