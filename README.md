@@ -21,8 +21,6 @@ _avec retour à la ligne_\
 
 Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du dossier parent, un fichier secret.txt contenant les client_secret et client_key.
 
-## Résumé matinée
-
 | Commande | Options | Fonction |
 | :------ | :-----: | :------: |
 | git init | | Initialiser un projet Git |
@@ -46,6 +44,7 @@ Afin de pouvoir faire fonctionner ce projet, vous devrez créer, à la racine du
 | git remote add <alias> <branche> | -u
 | git remote | -v | Lister lles différentes origines distantes |
 | git push <alias> <branche> | -u (--set-upstream) | Envoi le code source et l'historique des versions sur le depôt distant mentionné.
+| git stash | | Retire et stocke en mémoire les changemennts non commités de la branche actuelle |
 
 ## Création d'un compte Github
 
@@ -59,3 +58,28 @@ ssh-keygen
 Localiser la clé publique (par défaut: C:\Users\username\.ssh\) et copier le contenu du fichier id_rsa.pub.
 
 Aller sur github dans les paramètres du compte (icône du compte en haut à droite de l'écran d'accueil >>setting >> SSH and GPG keys >> New SSH key) et ajouter la clé nouvellement créée et copiée.
+
+## Exercice
+
+Dans votre branche main :
+
+1. créer une nouvelle branche avec la commande git branche <branche>.
+2. Appliquer des modfications sur un ou plusieurs fichiers.
+3. Sauvegarder vos changements et les envoyer dans le dépôt distant.
+
+Dans une autre branche :
+
+1. Récupérer les informations de la branche depuis le dépôt distant.
+2. Fusionner ces changements dans cette nouvelle branche.
+3. Appliquer des mmodifications dans un ou plusieurs fichiers dans cette nouvelle branche.
+4. Sauvegarder les modifications et les envoyer dans le dépôt distant (sur la bonne branche, pas sur main !).
+
+Dans la branche main :
+
+1. Vous allez récupérer et fusionner les informations de la branche main depuis le dépôt distant.
+2. Vous allez apporter des modifications sur le fichier README.md (ce que vous voulez).
+3. Vous allez stocker ces changements via la commande git stash.
+
+Dans l'autre branche :
+
+1. Vous pouvez appliquer les changements contenus dans le stash via la commande stash apply.
